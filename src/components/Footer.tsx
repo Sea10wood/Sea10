@@ -39,8 +39,8 @@ export default function Footer() {
                     <Image
                         src="/Twittericonmake.png"
                         alt="twitterlogo"
-                        width={100}
-                        height={100}
+                        width={80}
+                        height={80}
                         style={{ opacity: 1 }}
                     />
                 </Link>
