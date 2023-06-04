@@ -16,10 +16,10 @@ __webpack_require__.d(__webpack_exports__, {
   "default": () => (/* reexport */ App)
 });
 
-// EXTERNAL MODULE: ../node_modules/react/jsx-runtime.js
-var jsx_runtime = __webpack_require__(246);
+// EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
+var jsx_runtime = __webpack_require__(893);
 // EXTERNAL MODULE: ./src/styles/globals.css
-var globals = __webpack_require__(563);
+var globals = __webpack_require__(108);
 // EXTERNAL MODULE: external "react"
 var external_react_ = __webpack_require__(689);
 ;// CONCATENATED MODULE: ./src/pages/_app.tsx
@@ -41,7 +41,7 @@ function App({ Component , pageProps  }) {
 
 /***/ }),
 
-/***/ 563:
+/***/ 108:
 /***/ (() => {
 
 
@@ -63,7 +63,7 @@ module.exports = require("react");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [246], () => (__webpack_exec__(100)));
+var __webpack_exports__ = __webpack_require__.X(0, [893], () => (__webpack_exec__(100)));
 module.exports = __webpack_exports__;
 
 })();

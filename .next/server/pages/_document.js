@@ -40,11 +40,11 @@ _export(exports, {
     }
 });
 const _react = /*#__PURE__*/ _interop_require_wildcard(__webpack_require__(689));
-const _constants = __webpack_require__(724);
-const _getpagefiles = __webpack_require__(140);
-const _htmlescape = __webpack_require__(716);
+const _constants = __webpack_require__(744);
+const _getpagefiles = __webpack_require__(605);
+const _htmlescape = __webpack_require__(493);
 const _iserror = /*#__PURE__*/ _interop_require_default(__webpack_require__(16));
-const _htmlcontext = __webpack_require__(743);
+const _htmlcontext = __webpack_require__(357);
 function _interop_require_default(obj) {
     return obj && obj.__esModule ? obj : {
         default: obj
@@ -551,7 +551,7 @@ class Head extends _react.default.Component {
             content: "width=device-width,minimum-scale=1,initial-scale=1"
         }), !hasCanonicalRel && /*#__PURE__*/ _react.default.createElement("link", {
             rel: "canonical",
-            href: canonicalBase + (__webpack_require__(368).cleanAmpPath)(dangerousAsPath)
+            href: canonicalBase + (__webpack_require__(843).cleanAmpPath)(dangerousAsPath)
         }), /*#__PURE__*/ _react.default.createElement("link", {
             rel: "preload",
             as: "script",
@@ -775,7 +775,7 @@ _export(exports, {
         return getProperError;
     }
 });
-const _isplainobject = __webpack_require__(524);
+const _isplainobject = __webpack_require__(274);
 function isError(err) {
     return typeof err === "object" && err !== null && "name" in err && "message" in err;
 }
@@ -868,45 +868,45 @@ function prettyBytes(number, options) {
 
 /***/ }),
 
-/***/ 140:
+/***/ 605:
 /***/ ((module) => {
 
-module.exports = require("next/dist/server/get-page-files.js");
+module.exports = require("../../node_modules/next/dist/server/get-page-files.js");
 
 /***/ }),
 
-/***/ 716:
+/***/ 493:
 /***/ ((module) => {
 
-module.exports = require("next/dist/server/htmlescape.js");
+module.exports = require("../../node_modules/next/dist/server/htmlescape.js");
 
 /***/ }),
 
-/***/ 368:
+/***/ 843:
 /***/ ((module) => {
 
-module.exports = require("next/dist/server/utils.js");
+module.exports = require("../../node_modules/next/dist/server/utils.js");
 
 /***/ }),
 
-/***/ 724:
+/***/ 744:
 /***/ ((module) => {
 
-module.exports = require("next/dist/shared/lib/constants.js");
+module.exports = require("../../node_modules/next/dist/shared/lib/constants.js");
 
 /***/ }),
 
-/***/ 743:
+/***/ 357:
 /***/ ((module) => {
 
-module.exports = require("next/dist/shared/lib/html-context.js");
+module.exports = require("../../node_modules/next/dist/shared/lib/html-context.js");
 
 /***/ }),
 
-/***/ 524:
+/***/ 274:
 /***/ ((module) => {
 
-module.exports = require("next/dist/shared/lib/is-plain-object.js");
+module.exports = require("../../node_modules/next/dist/shared/lib/is-plain-object.js");
 
 /***/ }),
 
