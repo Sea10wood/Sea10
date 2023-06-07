@@ -51,14 +51,15 @@ export default function Footersmartphone() {
                         style={{ opacity: 1 }}
                     />
                 </Link>
-
-                <Image
-                    src="/favicon.ico"
-                    alt="favicon"
-                    width={100}
-                    height={100}
-                    style={{ opacity: 1 }}
-                />
+                <Link href="about">
+                    <Image
+                        src="/favicon.ico"
+                        alt="favicon"
+                        width={100}
+                        height={100}
+                        style={{ opacity: 1 }}
+                    />
+                </Link>
             </Paper>
         </div>
     );

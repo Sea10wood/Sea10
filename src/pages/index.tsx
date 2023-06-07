@@ -25,13 +25,18 @@ export default function Home() {
                     flexDirection: "column",
                     alignItems: "center",
                     justifyContent: "center",
+                    gap: "16px",
                 }}
             >
                 <Link href="/smartphone">
-                    <Button>スマートフォンの方はこちら</Button>
+                    <Button variant="contained" color="success">
+                        スマートフォンの方はこちら
+                    </Button>
                 </Link>
                 <Link href="/web">
-                    <Button>PC・タブレットの方はこちら</Button>
+                    <Button variant="contained" color="success">
+                        PC・タブレットの方はこちら
+                    </Button>
                 </Link>
             </div>
         </>
