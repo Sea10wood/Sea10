@@ -9,7 +9,13 @@ export default function Web() {
         <>
             <Footer2 />
             <div
-                style={{ position: "relative", width: "100%", height: "100%" }}
+                style={{
+                    position: "relative",
+                    width: "100%",
+                    height: "100%",
+                    marginBottom: "-10px",
+                    verticalAlign: "bottom",
+                }}
             >
                 <Image
                     src="/whoisSea10.gif"
@@ -22,7 +28,13 @@ export default function Web() {
             </div>
 
             <div
-                style={{ position: "relative", width: "100%", height: "100%" }}
+                style={{
+                    position: "relative",
+                    width: "100%",
+                    height: "100%",
+                    marginBottom: "-10px",
+                    marginTop: "0px",
+                }}
             >
                 <Image
                     src="/whoisSea10orange.gif"
@@ -35,7 +47,13 @@ export default function Web() {
             </div>
 
             <div
-                style={{ position: "relative", width: "100%", height: "100%" }}
+                style={{
+                    position: "relative",
+                    width: "100%",
+                    height: "100%",
+                    marginBottom: "-10px",
+                    marginTop: "0px",
+                }}
             >
                 <Image
                     src="/whoisSea10sea10.gif"
@@ -48,7 +66,12 @@ export default function Web() {
             </div>
 
             <div
-                style={{ position: "relative", width: "100%", height: "100%" }}
+                style={{
+                    position: "relative",
+                    width: "100%",
+                    height: "100%",
+                    marginTop: "0px",
+                }}
             >
                 <Image
                     src="/whoisSea10whoissea10.gif"
