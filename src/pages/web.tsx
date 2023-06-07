@@ -1,12 +1,13 @@
+import Footer2 from "@/components/Footer2";
 import Image from "next/image";
-import useWindowSize from "../hooks/Windowsize";
 import Footer from "../components/Footer";
+import useWindowSize from "../hooks/Windowsize";
 
 export default function Web() {
     const [width, height] = useWindowSize();
     return (
         <>
-            <Footer />
+            <Footer2 />
             <Image
                 src="/whoisSea10.gif"
                 alt="whoisSea10"

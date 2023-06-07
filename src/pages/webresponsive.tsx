@@ -1,5 +1,7 @@
 import Footer2 from "@/components/Footer2";
+import Footerweb from "@/components/webresponsive";
 import Image from "next/image";
+import Footer from "../components/Footer";
 import useWindowSize from "../hooks/Windowsize";
 
 export default function Web() {
