@@ -30,7 +30,7 @@ export default function Home() {
                 <Link href="/smartphone">
                     <Button>スマートフォンの方はこちら</Button>
                 </Link>
-                <Link href="/smartphone">
+                <Link href="/web">
                     <Button>PC・タブレットの方はこちら</Button>
                 </Link>
             </div>
